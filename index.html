@@ -11,10 +11,14 @@ body {
 </style>
 </head>
 <body>
+  <!--heading welcome to my new tab -->
   <h1>Welcome to my custom new tab page!</h1>
+  <!--fForm field for the new tab-->
   <form id="searchForm">
     <input type="text" id="searchBar" placeholder="Enter a search query...">
   </form>
+
+<!--Here is the script that will run  and this will make sure the search and other functionality works well-->
   <script>
     document.getElementById('searchForm').addEventListener('submit', function(event) {
       event.preventDefault();

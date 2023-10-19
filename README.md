@@ -14,6 +14,10 @@ Name of this extension is
 **New Tab Redirect**
 chrome://extensions/?id=icpgjfneehieebagbmdbhnlpiopdcmna
 
+## Alternatives : 
+- i am using this instead  (HAVE TO TEST THIS ONE FOR FUNCTONALITY AND STABILITY )
+[Fast New tab redirect](https://chromewebstore.google.com/detail/ohnfdmfkceojnmepofncbddpdicdjcoi)
+
 
 ## Todo: 
 - add a way to enter one command and have it open multiple links for me 
