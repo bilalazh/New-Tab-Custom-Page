@@ -19,19 +19,32 @@ body {
   </form>
 
 <!--Here is the script that will run  and this will make sure the search and other functionality works well-->
-  <script>
-    document.getElementById('searchBar').addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') {
-        var command = this.value;
-        if (command === 'yt') {
-          window.open('https://www.youtube.com', '_blank');
-        }
-        else if (command === 'ym') {
-        window.open('https://music.youtube.com', '_blank');
-      }
-      }
-    });
-  </script>
+
+
+<script>
+document.getElementById('searchBar').addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    var command = this.value;
+    if (command === 'yt') {
+      window.open('https://www.youtube.com', '_blank');
+      window.open('https://music.youtube.com', '_blank');
+    }
+    else if (command === 'ym') {
+      window.location.href = 'https://music.youtube.com';
+    }
+    else if (command === 'y') {
+      window.open('https://www.youtube.com', '_blank');
+      setTimeout(function(){ window.open('https://music.youtube.com', '_blank'); }, 500);
+    }
+    // Prevent the default Enter key behavior (e.g., form submission)
+    event.preventDefault();
+  }
+});
+</script>
+
+
+
+
 </body>
 </html>
 
