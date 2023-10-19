@@ -19,8 +19,6 @@ body {
   </form>
 
 <!--Here is the script that will run  and this will make sure the search and other functionality works well-->
-
-
 <script>
 document.getElementById('searchBar').addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
@@ -33,14 +31,35 @@ document.getElementById('searchBar').addEventListener('keydown', function(event)
       window.location.href = 'https://music.youtube.com';
     }
     else if (command === 'y') {
-      window.open('https://www.youtube.com', '_blank');
-      setTimeout(function(){ window.open('https://music.youtube.com', '_blank'); }, 500);
-    }
+        window.open('https://www.youtube.com', '_blank');
+        window.open('https://music.youtube.com', '_blank');
+      }
     // Prevent the default Enter key behavior (e.g., form submission)
     event.preventDefault();
   }
 });
+
+
 </script>
+
+
+
+<button id="button">Click me</button>
+        <script type="text/javascript">
+        var urls = ['https://google.com/', 'https://stackoverflow.com/'];
+
+        var $button = document.getElementById("button");
+
+        $button.addEventListener("click", function() {
+            for(i in urls) {
+                var url = urls[i];
+                var $a = document.createElement("a");
+                $a.setAttribute("href", url);
+                $a.setAttribute("target", "_blank");
+                $a.click();
+            }
+        });
+        </script>
 
 
 
