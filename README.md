@@ -19,6 +19,10 @@ chrome://extensions/?id=icpgjfneehieebagbmdbhnlpiopdcmna
 [Fast New tab redirect](https://chromewebstore.google.com/detail/ohnfdmfkceojnmepofncbddpdicdjcoi)
 
 
+here is another  option 
+[Custom New tab on google webstore](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)
+
+
 ## Todo: 
 - add a way to enter one command and have it open multiple links for me 
 Example : 
