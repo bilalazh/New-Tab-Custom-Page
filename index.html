@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Custom New Tab Page</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+  <h1>Welcome to my custom new tab page!</h1>
+  <form id="searchForm">
+    <input type="text" id="searchBar" placeholder="Enter a search query...">
+  </form>
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      var query = this.searchBar.value;
+      window.open('https://www.google.com/search?q=' + encodeURIComponent(query), '_blank');
+    });
+  </script>
+</body>
+</html>
+
