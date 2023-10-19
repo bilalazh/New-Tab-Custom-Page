@@ -29,3 +29,5 @@ Example :
  1. enter ./ai and it opens ai websites i use for research 
 2. enter ./news to open your news websites 
 3. enter ./social to launch whatsapp web ,reddit - discord etc 
+
+- Design this page better with custom icons and better dashbaord (maybe will make a new repo for that)
