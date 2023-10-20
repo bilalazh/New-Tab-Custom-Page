@@ -46,6 +46,58 @@ document.getElementById('searchBar').addEventListener('keydown', function(event)
 
 </script>
 
+//GOOgle search form 
+<form id="searchForm">
+    <input type="text" id="searchGoogle" placeholder="Enter a search query...">
+  </form>
+
+
+
+
+<script>
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+ event.preventDefault();
+ var query = this.searchGoogle.value;
+ window.open('https://www.google.com/search?q=' + encodeURIComponent(query), '_blank');
+});
+
+</script>
+
+
+
+
+<!--Google search bar fucntionality working-->
+
+<form action="https://www.google.com/search" method="GET" target="_self">
+    <input type="text" id="searchBar" name="q" placeholder="Enter a search query...">
+    <input type="submit" value="Search">
+</form>
+
+
+<script>
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var query = this.searchBar.value;
+    // Construct the Google search URL
+    var googleSearchURL = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+    // Redirect to the Google search URL in the same tab
+    window.location.href = googleSearchURL;
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <button id="button">Click me</button>
         <script type="text/javascript">
