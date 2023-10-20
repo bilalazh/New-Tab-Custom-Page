@@ -12,29 +12,73 @@ body {
 </head>
 <body>
   <!--heading welcome to my new tab -->
-  <h1>Welcome to my custom new tab page!</h1>
+  <h1>GUGOOGLE??</h1>
 
 
 
 <style>
+
+h1{
+  position: absolute;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+
+
+
   /* CSS for positioning the search bar in the lower-right corner */
-  #searchForm {
-    position: fixed;
-    bottom: 10px;
-   left: 10px;
-    background: #2e2b29;
-    color: #e0dbd7;
-    padding: 10px;
-    border-radius: 5px;
-  }
+
+
+
+
+#searchBar {
+    width: 90%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width to prevent the search bar from becoming too wide */
+    margin: 10px auto; /* Center the search bar horizontally and add 10px top margin */
+    padding: 10px; /* Add some padding around the search bar */
+    border: 1px solid #ccc; /* Add a border around the search bar */
+    border-radius: 10px; /* Add rounded corners to the search bar */
+    box-shadow: 0 0 10px rgba(83, 44, 3, 0.2); /* Add a subtle shadow effect to the search bar */
+    background-color: #f5f5f5; /* Set the background color to a light gray */
+    color: #333; /* Set the text color to a dark gray */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    font-family: 'Arial', sans-serif; /* Use Arial or a similar font for the search bar */
+    outline: none; /* Remove the outline when it is focused */
+}
+
+#searchBar::placeholder {
+    color: #ccc; /* Set the placeholder text color to a light gray */
+}
+
+#searchBar:focus {
+    box-shadow: 0 0 10px rgba(237, 114, 7, 0.4); /* Add a more prominent shadow effect when focused */
+}
+
+
+#searchBar{
+  position: absolute;
+ left: 44%;
+ transform: translateX(-50%);
+ transform: translateY(200%);
+
+}
+
+
+
   </style>
+
+
+
+
+
 
 
 
 
   <!--fForm field for the new tab-->
   <form id="searchForm">
-    <input type="text" id="searchBar" placeholder="> Enter Command">
+    <input type="text" id="commandBar" placeholder="> Enter Command">
   </form>
 
 <!--Here is the script that will run  and this will make sure the search and other functionality works well-->
