@@ -13,9 +13,28 @@ body {
 <body>
   <!--heading welcome to my new tab -->
   <h1>Welcome to my custom new tab page!</h1>
+
+
+
+<style>
+  /* CSS for positioning the search bar in the lower-right corner */
+  #searchForm {
+    position: fixed;
+    bottom: 10px;
+   left: 10px;
+    background: #2e2b29;
+    color: #e0dbd7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  </style>
+
+
+
+
   <!--fForm field for the new tab-->
   <form id="searchForm">
-    <input type="text" id="searchBar" placeholder="Enter a search query...">
+    <input type="text" id="searchBar" placeholder="> Enter Command">
   </form>
 
 <!--Here is the script that will run  and this will make sure the search and other functionality works well-->
@@ -46,44 +65,16 @@ document.getElementById('searchBar').addEventListener('keydown', function(event)
 
 </script>
 
-//GOOgle search form 
-<form id="searchForm">
-    <input type="text" id="searchGoogle" placeholder="Enter a search query...">
-  </form>
-
-
-
-
-<script>
-document.getElementById('searchForm').addEventListener('submit', function(event) {
- event.preventDefault();
- var query = this.searchGoogle.value;
- window.open('https://www.google.com/search?q=' + encodeURIComponent(query), '_blank');
-});
-
-</script>
-
-
 
 
 <!--Google search bar fucntionality working-->
+<!--NO script is needed for this there is a button here as well-->
 
 <form action="https://www.google.com/search" method="GET" target="_self">
-    <input type="text" id="searchBar" name="q" placeholder="Enter a search query...">
-    <input type="submit" value="Search">
+  <input type="text" id="searchBar" name="q" placeholder="Enter a search query..." style="width: 200px;">
 </form>
 
 
-<script>
-document.getElementById('searchForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    var query = this.searchBar.value;
-    // Construct the Google search URL
-    var googleSearchURL = 'https://www.google.com/search?q=' + encodeURIComponent(query);
-    // Redirect to the Google search URL in the same tab
-    window.location.href = googleSearchURL;
-});
-</script>
 
 
 
@@ -92,13 +83,7 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
 
 
 
-
-
-
-
-
-
-
+<!--adding buttons in the code at random places as well to make sure we have a use for them later -->
 <button id="button">Click me</button>
         <script type="text/javascript">
         var urls = ['https://google.com/', 'https://stackoverflow.com/'];
