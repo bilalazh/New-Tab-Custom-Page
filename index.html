@@ -20,27 +20,31 @@ body {
 
 <!--Here is the script that will run  and this will make sure the search and other functionality works well-->
 <script>
-document.getElementById('searchBar').addEventListener('keydown', function(event) {
-  if (event.key === 'Enter') {
-    var command = this.value;
-    if (command === 'yt')  {
-
+function navigateToUrl(command) {
+ switch (command) {
+    case 'yt':
       window.location.href = 'https://youtube.com';
-    }
-    else if (command === 'ym') {
+      break;
+    case 'ym':
       window.location.href = 'https://music.youtube.com';
-    }
-    else if (command === 'gh'){
-      window.location.href = 'htttps://github.com';
-    }
-    // Prevent the default Enter key behavior (e.g., form submission)
+      break;
+    case 'gh':
+      window.location.href = 'https://github.com';
+      break;
+    default:
+      console.error(`Unknown command: ${command}`);
+ }
+}
+
+document.getElementById('searchBar').addEventListener('keydown', function(event) {
+ if (event.key === 'Enter') {
+    var command = this.value;
+    navigateToUrl(command);
     event.preventDefault();
-  }
+ }
 });
 
-
 </script>
-
 
 
 <button id="button">Click me</button>
