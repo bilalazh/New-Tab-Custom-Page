@@ -3,11 +3,14 @@
 
 ## Fun  issues future me has to deal with (Not looking forward to it ) 
 - Some text is not auto sixing correctly
-
+ old problems are replaced by new ones (just line in real life )
 
 Name of this extension is 
 **New Tab Redirect**
 chrome://extensions/?id=icpgjfneehieebagbmdbhnlpiopdcmna
+ this extension abondoned me  just like everyone else
+
+ use the alternative for better results  
 
 ## Alternatives : 
 - i am using this instead  (HAVE TO TEST THIS ONE FOR FUNCTONALITY AND STABILITY )
