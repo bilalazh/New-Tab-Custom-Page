@@ -10,7 +10,15 @@ Name of this extension is
 chrome://extensions/?id=icpgjfneehieebagbmdbhnlpiopdcmna
  this extension abondoned me  just like everyone else
 
- use the alternative for better results  
+ use the alternative for better results 
+  - add the documentation here 
+format : 
+-- name 
+[]()  links 
+-
+--- how to add the url option to make sure the page works also 
+
+--- add screenshot here 
 
 ## Alternatives : 
 - i am using this instead  (HAVE TO TEST THIS ONE FOR FUNCTONALITY AND STABILITY )
