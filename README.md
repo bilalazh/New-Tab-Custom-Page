@@ -2,13 +2,8 @@
 
 
 ## Fun  issues future me has to deal with (Not looking forward to it ) 
+- Some text is not auto sixing correctly
 
-- Issues draining my brain cells 
-this fun extension to redirect the new tab when  i press ``CTRL+T`` decided to stop working after Chrome Update 
-
-- This extension is the most robust one i could find for now 
-- This is working on other  chromium based browsers (I tried this on the thorium broswer and it worked) 
-- Google Please stop this madness 
 
 Name of this extension is 
 **New Tab Redirect**
