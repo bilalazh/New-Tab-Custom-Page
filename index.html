@@ -122,6 +122,29 @@ document.getElementById('searchBar').addEventListener('keydown', function(event)
 </script>
 
 
+<!--When you press the : focus on the command bar and then press enter to focus on the google  button -->
+<script>
+ 
+ // Script for handling the ':' key press
+document.addEventListener('keydown', function(event) {
+    if (event.key === ':') {
+        document.getElementById('commandBar').focus();
+        event.preventDefault();
+    }
+});
+
+// Script for handling the 'Tab' key press
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Tab') {
+        document.getElementById('searchBar').focus();
+        event.preventDefault();
+    }
+});
+
+
+</script>
+
+
 
 <!--Google search bar fucntionality working-->
 <!--NO script is needed for this there is a button here as well-->
