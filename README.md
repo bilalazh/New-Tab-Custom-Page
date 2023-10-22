@@ -1,4 +1,6 @@
-# This is a Readme file and cry for help at the same time 
+# Chrome New Redirect  Page 
+
+## Extension you need to make it work 
 
 
 ## Fun  issues future me has to deal with (Not looking forward to it ) 
