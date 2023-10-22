@@ -15,9 +15,18 @@ body {
   <h1>GUGOOGLE??</h1>
 
 
+  <!--Google search bar fucntionality working-->
+<!--NO script is needed for this there is a button here as well-->
+
+<div id="searchBarContainer">
+  <input type="text" id="searchBar" name="q" placeholder="">
+</div>
+
+
 
 <style>
 
+/*Google logo sign up*/
 h1{
   position: absolute;
  left: 50%;
@@ -27,26 +36,35 @@ h1{
 
 
 
+
+
   /* CSS for positioning the search bar in the lower-right corner */
 
 
 
 
-#searchBar {
+  #searchBarContainer {
+  display: flex;
+  align-items: center;
+  height: 10vh; /* Adjust as needed */
+}
+
+
+  #searchBar {
     width: 100%; /* Adjust the width as needed */
-    max-width: 1600px; /* Set a maximum width to prevent the search bar from becoming too wide */
+    max-width: 1000px; /* Set a maximum width to prevent the search bar from becoming too wide */
     margin: 0px auto; /* Center the search bar horizontally and add 10px top margin */
     padding: 10px; /* Add some padding around the search bar */
-    border: 0px solid #ccc; /* Add a border around the search bar */
-    border-radius: 5px; /* Add rounded corners to the search bar */
+    border: nonepx solid #ccc; /* Add a border around the search bar */
+    border-radius: none; /* Add rounded corners to the search bar */
     background-color: #f5f5f5; /* Set the background color to a light gray */
     color: #333; /* Set the text color to a dark gray */
     font-size: 12px; /* Set the font size to 16 pixels */
     font-family: 'Arial', sans-serif; /* Use Arial or a similar font for the search bar */
     outline: none; /* Remove the outline when it is focused */
-  box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
+    box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
+}
 
-  }
 
 #searchBar::placeholder {
     color: #b07f7f; /* Set the placeholder text color to a light gray */
@@ -60,9 +78,12 @@ h1{
 #searchBar{
   position: absolute;
  left: 44%;
- transform: translateX(-50%);
+ transform: translateX(500%);
  transform: translateY(200%);
 
+}
+#searchBar {
+ transition: all 0.9s ease-in-out;
 }
 
 
@@ -146,12 +167,7 @@ document.addEventListener('keydown', function(event) {
 
 
 
-<!--Google search bar fucntionality working-->
-<!--NO script is needed for this there is a button here as well-->
 
-<form action="https://www.google.com/search" method="GET" target="_self">
-  <input type="text" id="searchBar" name="q" placeholder="Enter a search query..." style="width: 200px;">
-</form>
 
 
 
