@@ -38,6 +38,18 @@ body {
 </div>
 
 
+<!--Make google search working  -->
+  <script>
+    document.getElementById("searchBar").addEventListener("keyup", function(event) {
+      if (event.key === "Enter") {
+        let query = document.getElementById("searchBar").value;
+        if (query.trim() !== "") {
+          window.location.href = "https://www.google.com/search?q=" + query;
+        }
+      }
+    });
+  </script>
+
 
 <style>
 
@@ -50,8 +62,8 @@ h1{
 
     .center{
         display: auto; 
-  margin-left:40%;
-  margin-right: auto;
+         margin-left:40%;
+        margin-right: auto;
 }
     }
 
