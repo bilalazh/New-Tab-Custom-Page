@@ -102,8 +102,8 @@
     }
 });
 
-function navigateToUrl(command) {
-    switch (command) {
+function navigateToUrl(commandBar) {
+    switch (commandBar) {
         case 'yt':
             window.location.href = 'https://youtube.com';
             break;
@@ -114,7 +114,7 @@ function navigateToUrl(command) {
             window.location.href = 'https://github.com';
             break;
         default:
-            console.error(`Unknown command: ${command}`);
+            console.error(`Unknown command: ${commandBar}`);
     }
 }
 
