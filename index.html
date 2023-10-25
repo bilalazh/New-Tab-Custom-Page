@@ -10,9 +10,10 @@
     <div id="searchBarContainer">
         <input type="text" id="searchBar" name="q" placeholder="">
     </div>
-    <form id="searchForm">
-        <input type="text" id="commandBar" placeholder="> Enter Command">
-    </form>
+  <form id="searchForm" onsubmit="event.preventDefault(); navigateToUrl(document.getElementById('commandBar').value)">
+    <input type="text" id="commandBar" placeholder="> Enter Command">
+</form>
+
     <section class="links">
         <!-- Your links go here -->
 	  </div>
@@ -106,6 +107,8 @@ function navigateToUrl(commandBar) {
     switch (commandBar) {
         case 'yt':
             window.location.href = 'https://youtube.com';
+            // or you can use window.open
+            // window.open('https://youtube.com', '_self');
             break;
         case 'ym':
             window.location.href = 'https://music.youtube.com';
@@ -117,6 +120,7 @@ function navigateToUrl(commandBar) {
             console.error(`Unknown command: ${commandBar}`);
     }
 }
+
 
 document.getElementById('searchBar').addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
