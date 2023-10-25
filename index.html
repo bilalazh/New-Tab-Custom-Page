@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>New Tab</title>
+    <title>New Tab </title>
 </head>
-<body>
+
     <div id= "imagecenter" class="image">
         <img src="H:/pics/ai%20generated%20images/google%20image%20gen/gogole%20iage%20gen%20castle.jpg" alt="Description of the image" width="300px" height="300px">
     </div>
     <div id="searchBarContainer">
         <input type="text" id="searchBar" name="q" placeholder="">
     </div>
-    <!--command bar input form -->
   <form id="searchForm" onsubmit="event.preventDefault(); navigateToUrl(document.getElementById('commandBar').value)">
     <input type="text" id="commandBar" placeholder="> Enter Command">
 </form>
@@ -94,6 +93,10 @@
 
                 </div>
     </section>
+
+
+
+    <!--Html  styles go here-->
     <script>
     document.getElementById("searchBar").addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
