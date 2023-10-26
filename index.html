@@ -107,6 +107,8 @@
     }
 });
 
+//Commmand bar websites go here
+
 function navigateToUrl(commandBar) {
     switch (commandBar) {
         case 'yt':
@@ -120,6 +122,13 @@ function navigateToUrl(commandBar) {
         case 'gh':
             window.location.href = 'https://github.com';
             break;
+        case 'w':
+            window.location.href = 'https://en.wikipedia.org/wiki/Main_Page';
+            break;
+
+
+
+
         default:
             console.error(`Unknown command: ${commandBar}`);
     }
