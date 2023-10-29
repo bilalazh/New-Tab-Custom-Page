@@ -14,6 +14,12 @@
     <input type="text" id="commandBar" placeholder="> Enter Command">
 </form>
 
+<!--Button for theme switching -->
+
+<button id="theme-switcher" class="button">Switch Theme</button>
+
+
+
     <section class="links">
         <!-- Your links go here -->
 	  </div>
@@ -186,6 +192,19 @@ document.addEventListener('keydown', function(event) {
     if (event.key === 'Tab') {
         document.getElementById('searchBar').focus();
         event.preventDefault();
+    }
+});
+
+
+//Light and Dark theme 
+document.getElementById('theme-switcher').addEventListener('click', function() {
+    var body = document.body;
+    if (body.classList.contains('light-theme')) {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+    } else {
+        body.classList.remove('dark-theme');
+        body.classList.add('light-theme');
     }
 });
 
@@ -379,6 +398,22 @@ h4 {
 h4:hover{
     color: #fabd2f;
 }
+
+
+/* theme */
+/* Light theme */
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Dark theme */
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+
 </style>
 
 
