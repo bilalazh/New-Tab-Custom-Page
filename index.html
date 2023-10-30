@@ -16,7 +16,7 @@
 
 <!--Button for theme switching -->
 
-<button id="theme-switcher" class="button">Switch Theme</button>
+<button id="theme-switcher" class="button">Change Theme</button>
 
 
 
@@ -66,7 +66,6 @@
                     <a href="https://www.scinapse.io/"><h4>scinapse</h4></a>
                     <a href="https://consensus.app/"><h4>consensus</h4></a>
                 </div>
-
 
 
 
@@ -400,6 +399,18 @@ h4:hover{
 }
 
 
+
+/* Theme switcher css */
+#theme-switcher{
+      position: absolute;
+    right: 4%;
+    bottom: 100%;
+     transform: translateX(100%);
+     transform: translateY(3650%);
+    
+}
+
+
 /* theme  switcher  */
 /* Light theme */
 body.light-theme {
@@ -427,6 +438,8 @@ body.light-theme #commandBar {
     background-color: lightgray;
     color: black;
 }
+
+
 
 /* Dark theme */
 body.dark-theme {
