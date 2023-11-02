@@ -393,16 +393,11 @@ img{
 }
 
 h3 {
-    color: #b8bb26;
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 
-/*simple h4 color*/
-h4 {
-    color: #edbbb2;
-}
 /* H4 Links hover*/
 h4:hover{
     color: #fabd2f;
@@ -425,14 +420,12 @@ h4:hover{
 }
 @media (prefers-color-scheme: dark) {
 #theme-switcher svg {
-  fill: #d5c4a1 ; /* Dark color for light theme */
   background-color: none;
 }
 }
 
 @media (prefers-color-scheme: dark) {
   #theme-switcher svg {
-    fill: #282828; /* Light color for dark theme */181818
   background-color: none;
   }
 }
@@ -454,6 +447,8 @@ body.light-theme h4 {
 body.light-theme h3 {
     color: #79740e;
 }
+
+
 body.light-theme #commandBar {
     background-color: lightgray;
     color: black;
@@ -466,11 +461,26 @@ body.light-theme #commandBar {
 
 
 /* Dark theme */
+body.dark-theme h4 {
+    color: #fabd2f;
+}
+body.dark-theme h3 {
+    color: #f2e5bc;
+}
+
+
+
+
 body.dark-theme {
     background-color: #1d2021;
     color: white;
 
+    /* command bar in dark theme  */
 }
+
+
+
+
  body. dark-theme #commandBar {
     width: 100%;
     max-width: 1800px;
