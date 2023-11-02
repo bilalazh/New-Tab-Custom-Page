@@ -222,23 +222,25 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  var body = document.body;
-  if (!body.classList.contains('light-theme') && !body.classList.contains('dark-theme')) {
-    body.classList.add('light-theme');
-  }
-});
-
 document.getElementById('theme-switcher').addEventListener('click', function() {
   var body = document.body;
+  var svg = this.querySelector('svg');
+  var paths = svg.querySelectorAll('path');
   if (body.classList.contains('light-theme')) {
     body.classList.remove('light-theme');
     body.classList.add('dark-theme');
+    paths.forEach(function(path) {
+      path.setAttribute('stroke', '#ffffff'); // Light color for dark theme
+    });
   } else {
     body.classList.remove('dark-theme');
     body.classList.add('light-theme');
+    paths.forEach(function(path) {
+      path.setAttribute('stroke', '#000000'); // Dark color for light theme
+    });
   }
 });
+
 
 
 
@@ -427,7 +429,7 @@ h4:hover{
 #theme-switcher{
       position: relative;
     right: -65%;
-    bottom: 35%;
+    bottom: 32%;
      transform: translateX(10%);
      transform: translateY(-500%);
     
