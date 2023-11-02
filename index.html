@@ -16,7 +16,20 @@
 
 <!--Button for theme switching -->
 
-<button id="theme-switcher" class="button">Change Theme</button>
+<button id="theme-switcher" class="button">
+  <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
+    <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 12L23 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 2V1" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 23V22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 20L19 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 4L19 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 20L5 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 4L5 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 12L2 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+</button>
+
 
 
 
@@ -226,12 +239,10 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
 }
 
 html {
-    background-color: #282828;
     height: 100%;
 }
 
 body {
-    color: #1d2021;
 
     display: flex;
     justify-content: center;
@@ -409,6 +420,25 @@ h4:hover{
     
 }
 
+#theme-switcher {
+  border: none;
+}
+@media (prefers-color-scheme: dark) {
+#theme-switcher svg {
+  fill: #d5c4a1 ; /* Dark color for light theme */
+  background-color: none;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+  #theme-switcher svg {
+    fill: #282828; /* Light color for dark theme */181818
+  background-color: none;
+  }
+}
+
+
+
 /* theme  switcher  */
 /* Light theme */
 body.light-theme {
@@ -453,6 +483,8 @@ body.dark-theme {
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
 }
+
+
 
 </style>
 
