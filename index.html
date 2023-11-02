@@ -222,25 +222,6 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
 
 
 
-document.getElementById('theme-switcher').addEventListener('click', function() {
-  var body = document.body;
-  var svg = this.querySelector('svg');
-  var paths = svg.querySelectorAll('path');
-  if (body.classList.contains('light-theme')) {
-    body.classList.remove('light-theme');
-    body.classList.add('dark-theme');
-    paths.forEach(function(path) {
-      path.setAttribute('stroke', '#ffffff'); // Light color for dark theme
-    });
-  } else {
-    body.classList.remove('dark-theme');
-    body.classList.add('light-theme');
-    paths.forEach(function(path) {
-      path.setAttribute('stroke', '#000000'); // Dark color for light theme
-    });
-  }
-});
-
 
 
 
@@ -323,6 +304,13 @@ img{
 }
 
 
+h3{
+    color:#79740e;
+}
+
+h4{
+    color:#3c3836
+}
 
 
 
