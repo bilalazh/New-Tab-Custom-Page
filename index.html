@@ -7,12 +7,16 @@
     <div id= "imagecenter" class="image">
         <img src="H:/pics/ai%20generated%20images/google%20image%20gen/gogole%20iage%20gen%20castle.jpg" alt="Description of the image" width="300px" height="300px">
     </div>
+
+
+
     <div id="searchBarContainer">
         <input type="text" id="searchBar" name="q" placeholder="">
     </div>
   <form id="searchForm" onsubmit="event.preventDefault(); navigateToUrl(document.getElementById('commandBar').value)">
     <input type="text" id="commandBar" placeholder="> Enter Command">
 </form>
+
 
 <!--Button for theme switching -->
 
@@ -116,6 +120,34 @@
 
     <!--Html  styles go here-->
     <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var file = ev.dataTransfer.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+        var img = document.createElement("img");
+        img.src = e.target.result;
+        img.width = 300;  // Set the image width to 300px
+        img.height = 300;  // Set the image height to 300px
+        document.getElementById("imagecenter").appendChild(img);
+    };
+    reader.readAsDataURL(file);
+}
+
+
+
+
+//Zoom set to 80 percent on load 
+window.onload = function() {
+        document.body.style.zoom = "80%";
+    }
+
+
+//main google search bar code 
     document.getElementById("searchBar").addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
         let query = document.getElementById("searchBar").value;
@@ -126,7 +158,6 @@
 });
 
 //Commmand bar websites go here
-
 function navigateToUrl(commandBar) {
     switch (commandBar) {
         case 'yt':
@@ -313,7 +344,7 @@ h4{
     color:#3c3836
 }
 /* harccoded theme for comand bar  */
-#commandBar {
+#commandBar         {
     background-color: #333131;/*font color that shows inside the command bar */
 }
 
