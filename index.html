@@ -120,24 +120,6 @@
 
     <!--Html  styles go here-->
     <script>
-function allowDrop(ev) {
-    ev.preventDefault();
-}
-
-function drop(ev) {
-    ev.preventDefault();
-    var file = ev.dataTransfer.files[0];
-    var reader = new FileReader();
-    reader.onload = function(e) {
-        var img = document.createElement("img");
-        img.src = e.target.result;
-        img.width = 300;  // Set the image width to 300px
-        img.height = 300;  // Set the image height to 300px
-        document.getElementById("imagecenter").appendChild(img);
-    };
-    reader.readAsDataURL(file);
-}
-
 
 
 
