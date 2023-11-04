@@ -4,13 +4,14 @@
     <title>New Tab </title>
 </head>
 
+<!-- Image that appears top and center -->
     <div id= "imagecenter" class="image">
         <img src="H:\pics\ai generated images\2.jpg" alt="Description of the image" width="300px" height="300px">
     </div>
     
 
 
-
+<!-- Google search bar fucntonality added here  -->
     <div id="searchBarContainer">
         <input type="text" id="searchBar" name="q" placeholder="">
     </div>
@@ -20,7 +21,8 @@
 
 
 <!--Button for theme switching -->
-
+<!-- Button is just an svg that was souceed from the interner and now is hardcoded  in this coded -->
+<!-- This was done to make it look good and i dont know how to styles buttons so feel free to change this later with anything else as as desire be  -->
 <button id="theme-switcher" class="button">
   <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
     <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -37,7 +39,7 @@
 
 
 
-
+<!-- main section for the links and colors as well -->
     <section class="links">
         <!-- Your links go here -->
 	  </div>
@@ -124,13 +126,16 @@
 
 
 
-
+// This function is to set the standard zoom level on all the broswers 
+//There is this issue where if the page is already less then 100 percent of Zoom it wont make the page 80 percent zoom but it will make the page 80 percent smaller 
+//^ this behaviour can  be solved by getting the zoom value and then scaling the window according to that value
 //Zoom set to 80 percent on load 
 window.onload = function() {
         document.body.style.zoom = "80%";
     }
 
-
+//Star of the show  this replicates the google search bar effect by apprending any query entered to this url  https://www.google.com/search?q=
+// This then performs google search for you 
 //main google search bar code 
     document.getElementById("searchBar").addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
@@ -141,6 +146,8 @@ window.onload = function() {
     }
 });
 
+
+//You can ADD MORE WEBSITES HERE
 //Commmand bar websites go here
 function navigateToUrl(commandBar) {
     switch (commandBar) {
@@ -188,7 +195,20 @@ function navigateToUrl(commandBar) {
             break;
 
 
+ //Uncomment code from here to add more websites           
+/*
+           case 'pi':
+            window.location.href = 'https://pi.ai/talk';
+            break;
 
+
+*/
+
+
+
+
+
+//Error handling  for the command bar
         default:
             console.error(`Unknown command: ${commandBar}`);
     }
