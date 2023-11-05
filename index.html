@@ -272,6 +272,13 @@ const aiWebsites = [
   "https://bard.google.com/chat",
   // add more AI-related websites here
 ];
+
+const news = [
+  "https://www.wikipedia.org/",
+  "http://www.scholarpedia.org/",
+  // add more news-related websites here
+];
+
 function navigateToUrl(command) {
     //Add more cases here for more switches as need be
   switch (command) {
@@ -282,6 +289,11 @@ function navigateToUrl(command) {
       break;
 //Add more cases here
     // add more cases here for other commands like './news'
+    case './news': //Case for news
+      news.forEach((website) => {
+        window.open(website, '_blank');
+      });
+      break;
 
 
 
