@@ -23,4 +23,12 @@ here is another  option
 
 ## Todo: 
 - add a way to enter one command and have it open multiple links for me 
+    this feature is added 
+    - come up with more fimialar use cases for this 
+    - 
+
+
+
+
  - cute icon page loaded  with the page title
+       - next on TODO
