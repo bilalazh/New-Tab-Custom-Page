@@ -23,8 +23,4 @@ here is another  option
 
 ## Todo: 
 - add a way to enter one command and have it open multiple links for me 
-Example : 
-style it like the terminal command bars in the read me as well 
-
-//only good thing in this page
  - cute icon page loaded  with the page title

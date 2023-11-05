@@ -265,11 +265,28 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
 
 //test 
 
+//Major website loads all the wriiten websites will be loaded here 
+//List to open AI websites 
+const aiWebsites = [
+  "https://chat.openai.com/",
+  "https://bard.google.com/chat",
+  // add more AI-related websites here
+];
+function navigateToUrl(command) {
+  switch (command) {
+    case './ai':
+      aiWebsites.forEach((website) => {
+        window.open(website, '_blank');
+      });
+      break;
+    // add more cases here for other commands like './news'
+    default:
+      console.error(`Unknown command: ${command}`);
+  }
+}
 
 
-
-
-    </script>
+ </script>
 
 
 <style>
