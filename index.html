@@ -277,7 +277,14 @@ const aiWebsites = [
   "https://bard.google.com/chat",
   // add more AI-related websites here
 ];
+//AI for coding 
+const aiCode= [
+  "https://poe.com/Code-Llama-34b",
+  "https://www.phind.com/",
+  "https://www.bing.com/search?q=Bing+AI&showconv=1",
 
+  // add more AI-related websites here
+];
 const news = [
   "https://appleinsider.com/",
   "https://www.techradar.com/",
@@ -300,6 +307,13 @@ function navigateToUrl(command) {
         window.open(website, '_blank');
       });
       break;
+//AI coding websites
+    case './ai-code': //Case forai
+      aiCode.forEach((website) => {
+        window.open(website, '_blank');
+      });
+      break;
+
 //Add more cases here
     // case for news --> './news'
     case './news': //Case for news
