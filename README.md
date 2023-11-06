@@ -27,5 +27,5 @@ here is another  option
 
 
 
- - cute icon page loaded  with the page title
-       - 
+Now i know to to add the icon (finally)
+- add the new better icon 
