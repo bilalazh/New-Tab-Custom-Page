@@ -28,6 +28,8 @@ here is another  option
     - modularize the comamands tab as well 
     - give the website launch new tab -> put everything into websiteurlnaviagate.js or soemthing file
 
+make the page on diff broswers show at the same positoon --> calculate the viewport 
+solve the zoom issues 
 
 
 
