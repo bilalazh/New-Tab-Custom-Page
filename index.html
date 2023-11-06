@@ -238,17 +238,17 @@ const websites = {
 
 function navigateToUrl(command) {
     switch (command) {
-        case 'ai': //Case for AI
+        case './ai': //Case for AI
             aiWebsites.forEach((website) => {
                 window.open(website, '_blank');
             });
             break;
-        case 'ai-code': //Case for AI code
+        case './ai-code': //Case for AI code
             aiCode.forEach((website) => {
                 window.open(website, '_blank');
             });
             break;
-        case 'news': //Case for news
+        case './news': //Case for news
             news.forEach((website) => {
                 window.open(website, '_blank');
             });
