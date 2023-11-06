@@ -24,6 +24,10 @@ here is another  option
 ## Todo: 
     - come up with more fimialar use cases for this 
 
+    - add more categories for the commands i can add 
+    - modularize the comamands tab as well 
+    - give the website launch new tab -> put everything into websiteurlnaviagate.js or soemthing file
+
 
 
 
