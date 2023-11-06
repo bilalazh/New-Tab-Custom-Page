@@ -156,76 +156,6 @@ window.onload = function() {
 
 //You can ADD MORE WEBSITES HERE
 //Commmand bar websites go here
-function navigateToUrl(commandBar) {
-    switch (commandBar) {
-        case 'yt':
-            window.location.href = 'https://youtube.com';
-            // or you can use window.open
-            // window.open('https://youtube.com', '_self');
-            break;
-        case 'ym':
-            window.location.href = 'https://music.youtube.com';
-            break;
-        case 'gh':
-            window.location.href = 'https://github.com';
-            break;
-        case 'w':
-            window.location.href = 'https://en.wikipedia.org/wiki/Main_Page';
-            break;
-
-            case 'p':
-            window.location.href = 'https://www.perplexity.ai/';
-            break;
-
-            case 'pl':
-            window.location.href = 'https://labs.perplexity.ai/';
-            break;
-
-            case 'r':
-            window.location.href = 'https://www.reddit.com/';
-            break;
-
-            case 'a':
-            window.location.href = 'https://arxiv.org/';
-            break;
-
-            case 'b':
-            window.location.href = 'https://bard.google.com/chat';
-            break;
-
-            case 'bc':
-            window.location.href = 'https://www.bing.com/search?q=Bing+AI&showconv=1';
-            break;
-
-            case 'pi':
-            window.location.href = 'https://pi.ai/talk';
-            break;
-
-            //hackernews
-            case 'hn':
-            window.location.href = 'https://news.ycombinator.com/';
-            break;
-
-
- //Uncomment code from here to add more websites           
-/*
-           case 'pi':
-            window.location.href = 'https://pi.ai/talk';
-            break;
-
-
-*/
-
-
-
-
-
-//Error handling  for the command bar
-        default:
-            console.error(`Unknown command: ${commandBar}`);
-    }
-}
-
 
 
 
@@ -300,34 +230,63 @@ const news = [
 ];
 
 function navigateToUrl(command) {
-    //Add more cases here for more switches as need be
-  switch (command) {
-    case './ai': //Case forai
-      aiWebsites.forEach((website) => {
-        window.open(website, '_blank');
-      });
-      break;
-//AI coding websites
-    case './ai-code': //Case forai
-      aiCode.forEach((website) => {
-        window.open(website, '_blank');
-      });
-      break;
-
-//Add more cases here
-    // case for news --> './news'
-    case './news': //Case for news
-      news.forEach((website) => {
-        window.open(website, '_blank');
-      });
-      break;
-
-
-
-    default:
-      console.error(`Unknown command: ${command}`);
-  }
+    switch (command) {
+        case 'yt':
+            window.location.href = 'https://youtube.com';
+            break;
+        case 'ym':
+            window.location.href = 'https://music.youtube.com';
+            break;
+        case 'gh':
+            window.location.href = 'https://github.com';
+            break;
+        case 'w':
+            window.location.href = 'https://en.wikipedia.org/wiki/Main_Page';
+            break;
+        case 'p':
+            window.location.href = 'https://www.perplexity.ai/';
+            break;
+        case 'pl':
+            window.location.href = 'https://labs.perplexity.ai/';
+            break;
+        case 'r':
+            window.location.href = 'https://www.reddit.com/';
+            break;
+        case 'a':
+            window.location.href = 'https://arxiv.org/';
+            break;
+        case 'b':
+            window.location.href = 'https://bard.google.com/chat';
+            break;
+        case 'bc':
+            window.location.href = 'https://www.bing.com/search?q=Bing+AI&showconv=1';
+            break;
+        case 'pi':
+            window.location.href = 'https://pi.ai/talk';
+            break;
+        case 'hn':
+            window.location.href = 'https://news.ycombinator.com/';
+            break;
+        case './ai': //Case forai
+            aiWebsites.forEach((website) => {
+                window.open(website, '_blank');
+            });
+            break;
+        case './ai-code': //Case forai
+            aiCode.forEach((website) => {
+                window.open(website, '_blank');
+            });
+            break;
+        case './news': //Case for news
+            news.forEach((website) => {
+                window.open(website, '_blank');
+            });
+            break;
+        default:
+            console.error(`Unknown command: ${command}`);
+    }
 }
+
 
 
  </script>
