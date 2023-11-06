@@ -153,15 +153,6 @@ window.onload = function() {
 
 
 
-
-//You can ADD MORE WEBSITES HERE
-//Commmand bar websites go here
-
-
-
-
-
-
 //This function will focus the command bar -> This follows the vim style command bar typing 
 document.addEventListener('keydown', function(event) {
     if (event.key === ':') {
@@ -202,92 +193,74 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
 
 //Major website loads all the wriiten websites will be loaded here 
 //List to open AI websites 
+
+// List of AI websites
 const aiWebsites = [
-  "https://chat.openai.com/",
-  "https://bard.google.com/chat",
+    "https://chat.openai.com/",
+    "https://bard.google.com/chat",
   // add more AI-related websites here
 ];
-//AI for coding 
+
+// AI for coding
 const aiCode= [
-  "https://poe.com/Code-Llama-34b",
-  "https://www.phind.com/",
-  "https://www.bing.com/search?q=Bing+AI&showconv=1",
-
+    "https://poe.com/Code-Llama-34b",
+    "https://www.phind.com/",
+    "https://www.bing.com/search?q=Bing+AI&showconv=1",
   // add more AI-related websites here
 ];
+
 const news = [
-  "https://appleinsider.com/",
-  "https://www.techradar.com/",
-  "https://news.ycombinator.com/",
-  "https://www.theverge.com/",
-  "https://www.technologyreview.com/",
-  "https://www.tomshardware.com/",
-  "https://readwrite.com/category",
-  "https://www.zdnet.com/",
-
-
+    "https://appleinsider.com/",
+    "https://www.techradar.com/",
+    "https://news.ycombinator.com/",
+    "https://www.theverge.com/",
+    "https://www.technologyreview.com/",
+    "https://www.tomshardware.com/",
+    "https://readwrite.com/category",
+    "https://www.zdnet.com/",
   // add more news-related websites here
 ];
 
+const websites = {
+    'yt': 'https://youtube.com',
+    'ym': 'https://music.youtube.com',
+    'gh': 'https://github.com',
+    'w': 'https://en.wikipedia.org/wiki/Main_Page',
+    'p': 'https://www.perplexity.ai/',
+    'pl': 'https://labs.perplexity.ai/',
+    'r': 'https://www.reddit.com/',
+    'a': 'https://arxiv.org/',
+    'b': 'https://bard.google.com/chat',
+    'bc': 'https://www.bing.com/search?q=Bing+AI&showconv=1',
+    'pi': 'https://pi.ai/talk',
+    'hn': 'https://news.ycombinator.com/',
+};
+
 function navigateToUrl(command) {
     switch (command) {
-        case 'yt':
-            window.location.href = 'https://youtube.com';
-            break;
-        case 'ym':
-            window.location.href = 'https://music.youtube.com';
-            break;
-        case 'gh':
-            window.location.href = 'https://github.com';
-            break;
-        case 'w':
-            window.location.href = 'https://en.wikipedia.org/wiki/Main_Page';
-            break;
-        case 'p':
-            window.location.href = 'https://www.perplexity.ai/';
-            break;
-        case 'pl':
-            window.location.href = 'https://labs.perplexity.ai/';
-            break;
-        case 'r':
-            window.location.href = 'https://www.reddit.com/';
-            break;
-        case 'a':
-            window.location.href = 'https://arxiv.org/';
-            break;
-        case 'b':
-            window.location.href = 'https://bard.google.com/chat';
-            break;
-        case 'bc':
-            window.location.href = 'https://www.bing.com/search?q=Bing+AI&showconv=1';
-            break;
-        case 'pi':
-            window.location.href = 'https://pi.ai/talk';
-            break;
-        case 'hn':
-            window.location.href = 'https://news.ycombinator.com/';
-            break;
-        case './ai': //Case forai
+        case 'ai': //Case for AI
             aiWebsites.forEach((website) => {
                 window.open(website, '_blank');
             });
             break;
-        case './ai-code': //Case forai
+        case 'ai-code': //Case for AI code
             aiCode.forEach((website) => {
                 window.open(website, '_blank');
             });
             break;
-        case './news': //Case for news
+        case 'news': //Case for news
             news.forEach((website) => {
                 window.open(website, '_blank');
             });
             break;
         default:
-            console.error(`Unknown command: ${command}`);
+            if (websites[command]) {
+                window.location.href = websites[command];
+            } else {
+                console.error(`Unknown command: ${command}`);
+            }
     }
 }
-
-
 
  </script>
 
