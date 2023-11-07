@@ -272,17 +272,18 @@ function navigateToUrl(command) {
 
 
 <style>
+/* css boiler plate */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica Neue',  sans-serif ;
     box-sizing: border-box;
 }
-
+/* just html style */
 html {
     height: 100%;
 }
-
+/* body styles */
 body {
 
     display: flex;
@@ -290,43 +291,32 @@ body {
     align-items: center;
     height: 100%;
 }
-
+/* the image appears in the center */
 #imagecenter {
     display: flex;
     align-items: center;
-    position: absolute;
-    left: 42%;
+    position: fixed;
+    left: 42%; */
     transform: translateX(400%);
- transform: translateY(-100%);
-
-
-
+  transform: translateY(-100%); 
 }
 
-
+/* main page headline */
 a { 
  text-decoration: none; 
 }
-.image
-	{
-    display: flex;
-    align-items: right;
-    right: 101%;
-    transform: translateX(400%);
- transform: translateY(-150%);
 
-}
+/* set the rounded esges arund the image */
 img{
-  border-radius: 22px;
+  border-radius: 20px;
 }
-
-
+/* Made the image scale at same place everytime */
 .image{
-  position: absolute;
+  position: flex;
   display: block;
 }
 
-/*Css to tune down the imgae*/
+/*Fancy fade effect for the image */
 .image{
   width: 200px;
   height: 280px;
@@ -343,8 +333,8 @@ img{
   filter: grayscale(0%) contrast(100%);
 }
 
+/* Default Styles For Theme */
 /* hard coded light theme headings */
-
 h3{
     color:#79740e;
 }
@@ -352,18 +342,18 @@ h3{
 h4{
     color:#3c3836
 }
-/* harccoded theme for comand bar  */
+/* harccoded theme for comand bar  (main theme that shows up at reload ) */
 #commandBar         {
-    background-color: #333131;/*font color that shows inside the command bar */
+    background-color: #363405;/*font color that shows inside the command bar */
 }
 
 /* postiion for search bar  */
 #searchBar{
-  position: absolute;
+  position: flex;
   /* Change this absoulste pooston later and stuff  */
-
+align-items: center;
 }
-
+/* Transforms for the search bar  */
 #searchBarContainer {
     display: flex;
     align-items: center;
@@ -375,35 +365,38 @@ h4{
  transform: translateY(-100%);
 
 }
-
 /*Command bar styles:where*/
 #commandBar {
-    position: absolute;
+    position: fixed;
     right: 4%;
     bottom: 80%;
      transform: translateX(3450%);
      transform: translateY(3650%);
 }
 /* Remove default browser styling for input elements */
+/* border radius for the command bar and more */
 #commandBar {
     width: 100%;
     max-width: 1800px;
     padding: 1px;
     border: none;
-    border-radius: 5px;
-    color: #da8414;/* the color of the text that shows inside the command bar */
+    border-radius: 6px;
+    color: #fb9919;/* the color of the text that shows inside the command bar */
     font-size: 16px;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
 }
 
+/* hover effects for the command bar  */
 #commandBar:hover{
     background-color: #282321;/*font color that shows inside the command bar */
     color: #fabd2f;/* the color of the text that shows inside the command bar */
 }
 
+/* Search Bar Effects */
 
 #searchBar{
+    position: flex;
     width: 100%;
     max-width: 1000px;
     padding: 10px;
@@ -415,20 +408,16 @@ h4{
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
 }
+//Hover effects for the search bar 
 #searchBar:hover{
     background-color: #d5c4a1;/*color of the serach bar which is defualt and wals shown here*/
     color: #1d2021;/*Font color shown here */
-    box-shadow: rgba(0, 0, 0, 1) 0px 1px 1px, rgb(51, 51, 51) 0px 0px 2px 2px;
+    box-shadow: rgb(31, 67, 2) 0px 1px 1px, rgb(51, 51, 51) 0px 0px 2px 2px;
 }
 
-#searchBar::placeholder{
-    color: #b07f7f;
-}
 
-#searchBar:focus{
-    box-shadow: 0 0 10px rgba(252, 252, 252, 0.145);
-}
 
+/* style for the links */
 .links {
     display: flex;
     gap: 3rem;
@@ -437,19 +426,21 @@ h4{
   text-decoration: none;
 }
 
+/* column rules */
 .column {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 }
 
+/* H3 styles */
 h3 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 
-/* H4 Links hover*/
+/* H4 Links hover -> for normal mode*/
 h4:hover{
     color: #fabd2f;
 }
@@ -457,6 +448,7 @@ h4:hover{
 
 
 /* Theme switcher css */
+/* sunlight svg */
 #theme-switcher{
       position: relative;
     right: -65%;
@@ -465,16 +457,17 @@ h4:hover{
      transform: translateY(-500%);
     
 }
-
+/* theme switcher button  */
 #theme-switcher {
   border: none;
 }
+/* eh ?? */
 @media (prefers-color-scheme: dark) {
 #theme-switcher svg {
   background-color: none;
 }
 }
-
+/* what?// */
 @media (prefers-color-scheme: dark) {
   #theme-switcher svg {
   background-color: none;
@@ -491,7 +484,7 @@ body.light-theme {
 
 }
 
-
+/* links h4 in  light theme  */
 body.light-theme h4 {
     color: #504954;
 }
@@ -500,52 +493,22 @@ body.light-theme h3 {
 }
 
 
-body.light-theme #commandBar {
-    background-color: rgb(216, 216, 216);
-    color: black;
-}
-
-body.light-theme #commandBar :hover{
-    background-color: rgb(182, 182, 182);
-    color: black;
-}
-
-
 /* Dark theme */
 body.dark-theme h4 {
     color: #79740e;
 }
+
+/* Dark theme links heading */
 body.dark-theme h3 {
     color: #d5c4a1;
 }
 
-
-
+/* dark theme body styles */
 
 body.dark-theme {
     background-color: #1d2021;
     color: white;
-
-    /* command bar in dark theme  */
 }
-
-
-
-
- body. dark-theme #commandBar {
-    width: 100%;
-    max-width: 1800px;
-    padding: 1px;
-    border: none;
-    border-radius: 5px;
-    background-color: #403d3b;/*font color that shows inside the command bar */
-    color: #b92a11;/* the color of the text that shows inside the command bar */
-    font-size: 16px;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.144) 0px 0.1px 0.11px, rgb(51, 51, 51) 0px 0px 0px 0.11px;
-}
-
-
 
 </style>
 
