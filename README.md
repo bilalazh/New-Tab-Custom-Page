@@ -29,6 +29,10 @@ make the page on diff broswers show at the same positoon --> calculate the viewp
 
 solve the zoom issues 
 - how zoom will work on different browsers -> adding more java script to make this  work should be a crime 
+>> ideas i have  for this for now 
+-- make the tab set to  a set zoom value everytine
+
+-- refactor java script
 
 
 ##### possible todos: 
