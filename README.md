@@ -22,15 +22,21 @@ here is another  option
 
 
 ## Todo: 
-    - come up with more fimialar use cases for this 
 
+
+make the page on diff broswers show at the same positoon --> calculate the viewport 
+
+
+solve the zoom issues 
+- how zoom will work on different browsers -> adding more java script to make this  work should be a crime 
+
+
+##### possible todos: 
     - add more categories for the commands i can add 
+
+
     - modularize the comamands tab as well 
     - give the website launch new tab -> put everything into websiteurlnaviagate.js or soemthing file
 
-make the page on diff broswers show at the same positoon --> calculate the viewport 
-solve the zoom issues 
 
 
-
-- delete  all the redunatant icons
