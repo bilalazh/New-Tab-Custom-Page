@@ -33,5 +33,4 @@ solve the zoom issues
 
 
 
-Now i know to to add the icon (finally)
-- add the new better icon 
+- delete  all the redunatant icons
