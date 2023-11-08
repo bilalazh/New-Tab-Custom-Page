@@ -13,6 +13,9 @@
     </div>
 
 
+
+
+    
 <!-- Google search bar fucntonality added here  -->
     <div id="searchBarContainer">
         <input type="text" id="searchBar" name="q" placeholder="">
@@ -123,6 +126,10 @@
 
 
     <script>
+
+
+
+
 // This function is to set the standard zoom level on all the broswers 
 //There is this issue where if the page is already less then 100 percent of Zoom it wont make the page 80 percent zoom but it will make the page 80 percent smaller 
 //^ this behaviour can  be solved by getting the zoom value and then scaling the window according to that value
@@ -241,7 +248,7 @@ function navigateToUrl(command) {
                 window.open(website, '_blank');
             });
             break;
-        case './ai-code': //Case for AI code
+        case './ai-code': //Case for AI -Coding websites 
             aiCode.forEach((website) => {
                 window.open(website, '_blank');
             });
