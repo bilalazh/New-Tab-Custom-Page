@@ -1,6 +1,15 @@
 # Chrome New Redirect  Page 
-chrome://extensions/?id=icpgjfneehieebagbmdbhnlpiopdcmna
- this extension abondoned me  just like everyone else
+
+## Setup
+### Installing necessary extension : 
+We need some sort of extension that lets us run ``index.html``  file when we press the new tab page 
+
+This extension named **Custom New Tab Url**
+here is the link of the extension i have been using for this project 
+[GO TO THIS LINK TO DOWNLOAD IT](https://chromewebstore.google.com/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
+
+
+
 
  use the alternative for better results 
   - add the documentation here 
