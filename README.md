@@ -1,7 +1,12 @@
 # Chrome New Redirect  Page 
 
 ## Motivations and Design Decisions : 
-I always hated how the new tab page funcioned and looked , it was missing some core function 
+I always hated how the new tab page funcioned and looked , it was missing some core function  
+
+
+
+https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca
+
 
 ## Setup
 ### Installing necessary extension : 
