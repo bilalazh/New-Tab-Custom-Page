@@ -1,5 +1,8 @@
 # Chrome New Redirect  Page 
 
+## Motivations and Design Decisions : 
+I always hated how the new tab page funcioned and looked , it was missing some core function 
+
 ## Setup
 ### Installing necessary extension : 
 We need some sort of extension that lets us run ``index.html``  file when we press the new tab page 
@@ -41,6 +44,20 @@ solve the zoom issues
 >> ideas i have  for this for now 
 -- make the tab set to  a set zoom value everytine
 
+ use and try and run this code to make the zoom work beter again (calcualte on runtime)
+```js
+window.onload = function() {
+    // Get the browser's zoom level
+    let browserZoomLevel = window.devicePixelRatio;
+
+    // Calculate the required zoom level for the website
+    let requiredZoomLevel = 0.8 / browserZoomLevel;
+
+    // Set the zoom level of the website
+    document.body.style.zoom = requiredZoomLevel * 100 + "%";
+}
+
+```
 -- refactor java script
 
 
