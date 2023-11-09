@@ -132,11 +132,13 @@
 // This function is to set the standard zoom level on all the broswers 
 //There is this issue where if the page is already less then 100 percent of Zoom it wont make the page 80 percent zoom but it will make the page 80 percent smaller 
 //^ this behaviour can  be solved by getting the zoom value and then scaling the window according to that value
-//Zoom set to 80 percent on load 
+//Zoom set to 80 percent on load (Zoom level is not changed only the  page is scaled to that ratio ig ???)
 window.onload = function() {
         document.body.style.zoom = "80%";
     }
 
+
+    
 //Star of the show  this replicates the google search bar effect by apprending any query entered to this url  https://www.google.com/search?q=
 // This then performs google search for you 
 //main google search bar code 
