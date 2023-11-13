@@ -273,11 +273,13 @@ function navigateToUrl(command) {
     if (command.startsWith('yt>')) {
         const query = command.substring(3).trim().replace(/ /g, '+');
         window.location.href = `https://www.youtube.com/results?search_query=${query}`;
+    } else if (command.startsWith('meta>')) {
+        const query = command.substring(5).trim().replace(/ /g, '+');
+        window.location.href = `https://metaphor.systems/search?q=${query}`;
     } else {
         // existing code...
     }
 }
-
 
 
 //givinvg command bar super powers 
