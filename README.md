@@ -73,5 +73,5 @@ window.onload = function() {
     - modularize the comamands tab as well 
     - give the website launch new tab -> put everything into websiteurlnaviagate.js or soemthing file
 
-
+ - make sure you can switch theme from command bar 
 
