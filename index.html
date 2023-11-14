@@ -276,13 +276,30 @@ function navigateToUrl(command) {
     } else if (command.startsWith('meta>')) {
         const query = command.substring(5).trim().replace(/ /g, '+');
         window.location.href = `https://metaphor.systems/search?q=${query}`;
+    } else if (command.startsWith('ym>')) {
+        const query = command.substring(3).trim().replace(/ /g, '+');
+        window.location.href = `https://music.youtube.com/search?q=${query}&utm_source=opensearch`;
+    } else if (command.startsWith('neevt>')) {
+        const query = command.substring(6).trim().replace(/ /g, '+');
+        window.location.href = `https://neevt.com/search?q=${query}`;
+    } else if (command.startsWith('sw>')) {
+        const query = command.substring(3).trim().replace(/ /g, '+');
+        window.location.href = `https://swurl.com/?q=${query}`;
+    } else if (command.startsWith('pp>')) {
+        const query = command.substring(3).trim().replace(/ /g, '+');
+        window.location.href = `https://www.perplexity.ai/search?s=o&q=${query}`;
+    } else if (command.startsWith('ph>')) {
+        const query = command.substring(3).trim().replace(/ /g, '+');
+        window.location.href = `https://www.phind.com/search?q=${query}`;
+    } else if (command.startsWith('scoop>')) {
+        const query = command.substring(6).trim().replace(/ /g, '+');
+        window.location.href = `https://scoop.sh/#/apps?q=${query}&s=0&d=1&o=true`;
     } else {
         // existing code...
     }
 }
 
 
-//givinvg command bar super powers 
 
  </script>
 

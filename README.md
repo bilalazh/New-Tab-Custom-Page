@@ -75,3 +75,4 @@ window.onload = function() {
 
  - make sure you can switch theme from command bar 
 
+ - yt in the command bar is not working because of the damn YT> that i added and i dont know how to fix this for now 
