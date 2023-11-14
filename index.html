@@ -269,7 +269,7 @@ function navigateToUrl(command) {
 }
 
 
-function navigateToUrl(command) {
+function SearchwithURL(command) {
     if (command.startsWith('yt>')) {
         const query = command.substring(3).trim().replace(/ /g, '+');
         window.location.href = `https://www.youtube.com/results?search_query=${query}`;
