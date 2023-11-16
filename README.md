@@ -1,11 +1,11 @@
 # Chrome New Redirect  Page 
 
 ## Motivations and Design Decisions : 
-I always hated how the new tab page funcioned and looked , it was missing some core function  
+Basically never liked the new tab page  , and i used to change it using other extensions that just change it to simpler versions of the page  sometimes other alternatives for new page like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
 
 
 
-https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca
+
 
 
 ## Setup
