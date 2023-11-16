@@ -242,29 +242,84 @@ const websites = {
 //more websites can be added here as well
 };
 
+// function navigateToUrl(command) {
+//     switch (command) {
+//         case './ai': //Case for AI
+//             aiWebsites.forEach((website) => {
+//                 window.open(website, '_blank');
+//             });
+//             break;
+//         case './ai-code': //Case for AI -Coding websites 
+//             aiCode.forEach((website) => {
+//                 window.open(website, '_blank');
+//             });
+//             break;
+//         case './news': //Case for news
+//             news.forEach((website) => {
+//                 window.open(website, '_blank');
+//             });
+//             break;
+//         default:
+//             if (websites[command]) {
+//                 window.location.href = websites[command];
+//             } else {
+//                 console.error(`Unknown command: ${command}`);
+//             }
+//     }
+// }
+
+
 function navigateToUrl(command) {
-    switch (command) {
-        case './ai': //Case for AI
-            aiWebsites.forEach((website) => {
-                window.open(website, '_blank');
-            });
-            break;
-        case './ai-code': //Case for AI -Coding websites 
-            aiCode.forEach((website) => {
-                window.open(website, '_blank');
-            });
-            break;
-        case './news': //Case for news
-            news.forEach((website) => {
-                window.open(website, '_blank');
-            });
-            break;
-        default:
-            if (websites[command]) {
-                window.location.href = websites[command];
-            } else {
+    if (command.startsWith('>')) {
+        // Handle the commands that start with '>'
+        // Extract the keyword and the query from the command
+        const splitCommand = command.split(' ');
+        const keyword = splitCommand[0].substring(1);
+        const query = splitCommand.slice(1).join(' ').trim().replace(/ /g, '+');
+
+        let url;
+        switch(keyword) {
+            case 'yt':
+                url = `https://www.youtube.com/results?search_query=${query}`;
+                break;
+            case 'meta':
+                url = `https://metaphor.systems/search?q=${query}`;
+                break;
+            case 'ym':
+                url = `https://music.youtube.com/search?q=${query}&utm_source=opensearch`;
+                break;
+            // Add more cases as needed for other keywords
+            default:
                 console.error(`Unknown command: ${command}`);
-            }
+                return;
+        }
+
+        window.location.href = url;
+    } else {
+        // Handle the other commands
+        switch (command) {
+            case './ai': //Case for AI
+                aiWebsites.forEach((website) => {
+                    window.open(website, '_blank');
+                });
+                break;
+            case './ai-code': //Case for AI -Coding websites 
+                aiCode.forEach((website) => {
+                    window.open(website, '_blank');
+                });
+                break;
+            case './news': //Case for news
+                news.forEach((website) => {
+                    window.open(website, '_blank');
+                });
+                break;
+            default:
+                if (websites[command]) {
+                    window.location.href = websites[command];
+                } else {
+                    console.error(`Unknown command: ${command}`);
+                }
+        }
     }
 }
 
