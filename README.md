@@ -11,6 +11,7 @@ _i set few goals for the new tab page i wanted to design_
 - modular but easy to maintain (ideally a single html file)
 
 i made this without having any HTML , CSS or Js knowledge 
+i just googled  my way to some how a fully functional page (read some commit messages they really show you how much fun it was **insert sarcasm**)
 
 
 
