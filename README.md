@@ -3,7 +3,12 @@
 ## Motivations and Design Decisions : 
 I always hated the page that appears when you press ```CTRL+T``` in chrome , and i used to change it  to blank page or some other extensions that change it entirely like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
 
-
+i set few goals for the new tab page i wanted to design 
+- functional -> must add functionality and does not sacrifice function for form 
+- reduces visual clutter (no icons or colors keeping mono or close to mono tone )
+- lets me add custom links for all the websites i visit (lets you categorize links as well)
+- keyboard centric ( most or ideally all  functionalty can be performed using your keyboard)
+- modular but easy to maintain (ideally a single html file)
 
 
 
