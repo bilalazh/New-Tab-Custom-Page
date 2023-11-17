@@ -10,6 +10,7 @@ _i set few goals for the new tab page i wanted to design_
 - keyboard centric ( most or ideally all  functionalty can be performed using your keyboard)
 - modular but easy to maintain (ideally a single html file)
 
+i made this without having any HTML , CSS or Js knowledge 
 
 
 
