@@ -1,7 +1,7 @@
 # Chrome New Redirect  Page 
 
 ## Motivations and Design Decisions : 
-Basically never liked the new tab page  , and i used to change it using other extensions that just change it to simpler versions of the page  sometimes other alternatives for new page like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
+I always hated the page that appears when you press ```CTRL+T``` in chrome , and i used to change it  to blank page or some other extensions that change it entirely like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
 
 
 
