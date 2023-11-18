@@ -12,10 +12,13 @@ _i set few goals for the new tab page i wanted to design_
 
 
 
+
+
 ##### Skill Issues : 
 i made this without having any HTML , CSS or Js knowledge 
 i just googled  my way to some how a fully functional page (read some commit messages they really show you how much fun it was **insert sarcasm**)
 
+despite of all this it works and is easily modifiable and extensible to fit your specific needs or you can add your own links anywhere  see [[Make it your own ]] section for more information 
 
 
 ## Setup
@@ -47,3 +50,6 @@ format :
 here is another  option 
 [Custom New tab on google webstore](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)
 
+
+
+## Make It Your Own 
