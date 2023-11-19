@@ -81,21 +81,13 @@ file:///D:\tab-local\index.html
 
 ## ANATOMY of the page 
 
-
-
 ## Features 
 
 
 ## Commands
 
-
 ## Themes
-
-
-### Screenshots 
-
-
-
 
 ## Make It Your Own : 
 
+### Screenshots 
