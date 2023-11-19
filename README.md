@@ -40,9 +40,10 @@ This extension named **Custom New Tab Url**
 here is the link of the extension i have been using for this project 
 [GO TO THIS LINK TO DOWNLOAD IT](https://chromewebstore.google.com/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
 
-[[insert image here]]
+![image](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/2cb35ced-e449-419f-a2da-656607fe0669)
 
-just click  on add to chrome to get the extension
+
+just click  on add to chrome to get the extension 
 
 
  use the alternative for better results 
