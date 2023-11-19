@@ -61,14 +61,13 @@ In my case the path was like this
 file:///D:\tab-local\index.html
 ```
 
-
-
  use the alternative for better results 
-  - add the documentation here 
-format : 
--- name 
-[]()  links 
--
+
+- add the other extension here as well and if people want to use here as well
+
+
+
+
 --- how to add the url option to make sure the page works also 
 
 --- add screenshot here 
