@@ -1,5 +1,12 @@
 # Chrome New Redirect  Page 
 
+Index :
+Motivations and Design Decisions : 
+ Setup
+
+
+Alternatives  
+
 ## Motivations and Design Decisions : 
 I always hated the page that appears when you press ```CTRL+T``` in chrome , and i used to change it  to blank page or some other extensions that change it entirely like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
 
@@ -22,14 +29,17 @@ despite of all this it works and is easily modifiable and extensible to fit your
 
 
 ## Setup
-### Installing necessary extension : 
-We need some sort of extension that lets us run ``index.html``  file when we press the new tab page 
+
+### Installing necessary extensions : 
+Since the page is just an ``index.html `` file , We need a chrome extension installed to load this page everytime we press ``Ctrl + T`` and open up a new tab 
 
 This extension named **Custom New Tab Url**
 here is the link of the extension i have been using for this project 
 [GO TO THIS LINK TO DOWNLOAD IT](https://chromewebstore.google.com/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
 
+[[insert image here]]
 
+just click  on add to chrome to get the extension
 
 
  use the alternative for better results 
