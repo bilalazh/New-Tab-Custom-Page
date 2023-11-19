@@ -12,10 +12,12 @@ Dependencies
 
 ## Themes
 
-### Screenshots 
 
 ## Make It Your Own : 
 
+### Screenshots 
+
+### Browswers Tested 
 Alternatives  
 
 
@@ -91,3 +93,6 @@ file:///D:\tab-local\index.html
 ## Make It Your Own : 
 
 ### Screenshots 
+
+
+### Browswers Tested 
