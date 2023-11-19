@@ -45,10 +45,7 @@ here is the link of the extension i have been using for this project
 just click  on `add to chrome ` button to get the extension 
 
 #### Configuring The Extension To Use Our Html Page
-
-
-
-
+To configure the extesnsion to use the index.html page follow these steps 
 
 go to the options (As shown here ) 
 ![image](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/63ee6082-b247-425b-b5a7-240d8d1b9006)
