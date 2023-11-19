@@ -72,13 +72,6 @@ file:///D:\tab-local\index.html
 
 --- add screenshot here 
 
-## Alternatives : 
-- i am using this instead  (HAVE TO TEST THIS ONE FOR FUNCTONALITY AND STABILITY )
-[Fast New tab redirect](https://chromewebstore.google.com/detail/ohnfdmfkceojnmepofncbddpdicdjcoi)
-
-
-here is another  option 
-[Custom New tab on google webstore](https://chromewebstore.google.com/detail/custom-new-tab/lfjnnkckddkopjfgmbcpdiolnmfobflj)
 
 
 
