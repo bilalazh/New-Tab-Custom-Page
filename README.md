@@ -45,6 +45,21 @@ here is the link of the extension i have been using for this project
 
 just click  on add to chrome to get the extension 
 
+go to the options (As shown here ) 
+![image](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/63ee6082-b247-425b-b5a7-240d8d1b9006)
+
+then you should see a ```URL or local file path``` Field 
+and you can enter the path of your `index.html` file following this syntax 
+
+```
+file:///PATH-TO-INDEX.HTML
+```
+In my case it was 
+```
+file:///D:\tab-local\index.html
+```
+
+
 
  use the alternative for better results 
   - add the documentation here 
