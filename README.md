@@ -5,7 +5,20 @@ Motivations and Design Decisions :
  Setup
 Dependencies
 
+## ANATOMY of the page 
+
+## Features 
+## Commands
+
+## Themes
+
+### Screenshots 
+
+## Make It Your Own : 
+
 Alternatives  
+
+
 
 ## Motivations and Design Decisions : 
 I always hated the page that appears when you press ```CTRL+T``` in chrome , and i used to change it  to blank page or some other extensions that change it entirely like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
