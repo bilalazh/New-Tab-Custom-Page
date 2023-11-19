@@ -66,10 +66,20 @@ file:///D:\tab-local\index.html
 - add the other extension here as well and if people want to use here as well
 
 
+## ANATOMY of the page 
 
 
 
-### screenshot here 
+## Features 
+
+
+## Commands
+
+
+## Themes
+
+
+### Screenshots 
 
 
 
