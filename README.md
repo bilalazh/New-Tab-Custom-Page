@@ -30,7 +30,10 @@ despite of all this it works and is easily modifiable and extensible to fit your
 
 ## Setup
 
-### Installing necessary extensions : 
+## Dependencies 
+-  `Custom New Tab Url` extension 
+
+### Install Extension : 
 Since the page is just an ``index.html `` file , We need a chrome extension installed to load this page everytime we press ``Ctrl + T`` and open up a new tab 
 
 This extension named **Custom New Tab Url**
