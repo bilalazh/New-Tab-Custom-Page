@@ -56,7 +56,7 @@ and you can enter the path of your `index.html` file following this syntax
 ```
 file:///PATH-TO-INDEX.HTML
 ```
-In my case it was 
+In my case the path was like this 
 ```
 file:///D:\tab-local\index.html
 ```
