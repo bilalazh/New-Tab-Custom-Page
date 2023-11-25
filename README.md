@@ -3,7 +3,7 @@
 Index :
 - [Motivations and Design Decisions ](#motivation)
 - [Setup](#motivation)
-- [Dependencies](#depend)
+    - [Dependencies](#depend)
  - [ANATOMY Of Page](#anatomy) 
  ANATOMY of the page 
  Features 
