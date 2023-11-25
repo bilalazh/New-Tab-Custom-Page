@@ -74,10 +74,15 @@ file:///D:\tab-local\index.html
 - add the other extension here as well and if people want to use here as well
 
 
-## ANATOMY of the page 
+## ANATOMY Of Page: <a name = "anatomy"></a>
 
-## Features 
-- search 
+Here is the complete anatomy of page along with their features
+
+
+ ##### Search 
+Main search bar in the middle of screen is the main search area , it works just as a normal **Google Search** with additional super powers
+
+
 - meta search 
 - image
 - command bar 
