@@ -86,7 +86,7 @@ file:///D:\tab-local\index.html
 
 ## Commands
 
-- Make  a tabla here
+- Make  a table here
 
 -Type `theme` theme in command bar to change the theme 
 
