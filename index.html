@@ -225,6 +225,15 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
     toggleTheme();
 });
 
+// Theme changer with the shortcut
+//CONTROL + Y is the shortcut now to change the theme 
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'y') {
+        toggleTheme();
+    }
+});
+
+
 // Command bar event listener
 document.getElementById('commandBar').addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
@@ -235,6 +244,8 @@ document.getElementById('commandBar').addEventListener('keyup', function(event) 
         }
     }
 });
+
+
 
 
 //test 
@@ -582,7 +593,7 @@ body.light-theme h3 {
     color: #79740e;
 }
 body.light-theme h3:hover {
-    color: #fb9919;
+    color: #fb9919 !important;
 }
 
 /* Dark theme */
