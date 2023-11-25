@@ -2,8 +2,9 @@
 
 Index :
 - [Motivations and Design Decisions ](#motivation)
-- [Setup](#motivation)
+- [Setup And Installation ](#set)
     - [Dependencies](#depend)
+    - [Install Extension ](#ext)
  - [ANATOMY Of Page](#anatomy) 
  ANATOMY of the page 
  Features 
@@ -38,11 +39,11 @@ i just googled  my way to some how a fully functional page (read some commit mes
 despite of all this it works and is easily modifiable and extensible to fit your specific needs or you can add your own links anywhere  see [[Make it your own ]] section for more information 
 
 
-## Setup And Installation 
+## Setup And Installation <a name = "set"></a>
 ## Dependencies <a name = "depend"></a>
 -  `Custom New Tab Url` extension 
 
-### Install Extension : 
+### Install Extension : <a name = "ext"></a>
 Since the page is just an ``index.html `` file , We need a chrome extension installed to load this page everytime we press ``Ctrl + T`` and open up a new tab 
 
 This extension named **Custom New Tab Url**
