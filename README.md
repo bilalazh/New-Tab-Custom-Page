@@ -97,7 +97,7 @@ How to take screenshot on mac
 press ``Enter `` and this query will be performed with  google search engines
 
 
-#### Meta Search 
+#### Alterantive Search Engines Search
 
 You can search`` metaphor.systems`` from ``Search bar`` by just adding ``>meta`` to your query in ``search bar``
 
@@ -107,6 +107,8 @@ here is a sample query to show you how this works
 >meta latest ai papers 
 ```
 and it will show you these [results](https://metaphor.systems/search?q=latest+ai+papers)
+
+*More alternative search engines can be added in future as well*
 
 - image
 - command bar 
