@@ -82,6 +82,24 @@ Here is the complete anatomy of page along with their features
  ##### Search 
 Main search bar in the middle of screen is the main search area , it works just as a normal **Google Search** with additional super powers
 
+![image](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/dfbea0c4-c31a-4f1d-87fd-ad0fff66e6e7)
+
+
+
+
+#### How to use search : 
+
+You can go to ``Search bar `` from anywhere by simply pressing the ``Tab`` key on your keyboard
+
+
+**Enter your query**
+When you press ``Tab `` you can enter any query in ``Search bar`` for example consider this 
+
+```
+How to take screenshot on mac 
+```
+press ``Enter `` and this query will be performed with  google search engines
+
 
 - meta search 
 - image
