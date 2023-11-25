@@ -166,11 +166,12 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 
 ### Light Mode:
 
-
+[[Add screenshots here]]
 
 ### Dark Mode : 
 
 
+[[Add screenshots here]]
 
 
 ## Make It Your Own : 
