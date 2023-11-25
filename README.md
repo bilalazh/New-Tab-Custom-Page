@@ -154,8 +154,9 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 -Type `theme` theme in command bar to change the theme 
 
 
-## Themes
+## Themes <a name = "theme"></a>
 - [Gruvbox](https://github.com/morhetz/gruvbox) and [Everforest](https://github.com/sainnhe/everforest) inspired theme , That uses colors from gruvbx but over all gives everforest kind of green vibe
+
 
 ### How to change the theme 
 - Type ``theme`` in command bar your theme will be changed 
