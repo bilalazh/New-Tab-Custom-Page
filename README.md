@@ -8,7 +8,7 @@ Index :
  ANATOMY of the page 
  Features 
  Commands
- Themes
+ - [Themes](#theme)
  Make It Your Own : 
  Screenshots 
  Browswers Tested 
