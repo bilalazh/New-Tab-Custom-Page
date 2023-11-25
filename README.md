@@ -9,6 +9,7 @@ Index :
  Features 
  Commands
  - [Themes](#theme)
+            - [Themes](#ct)
  Make It Your Own : 
  Screenshots 
  Browswers Tested 
@@ -158,7 +159,7 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 - [Gruvbox](https://github.com/morhetz/gruvbox) and [Everforest](https://github.com/sainnhe/everforest) inspired theme , That uses colors from gruvbx but over all gives everforest kind of green vibe
 
 
-### How to change the theme 
+### How to change the theme <a name = "ct"></a>
 - Type ``theme`` in command bar your theme will be changed 
 - Press ``Ctrl + y `` to change the theme quickly using keyboard
 
