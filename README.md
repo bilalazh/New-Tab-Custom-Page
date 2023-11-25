@@ -3,8 +3,8 @@
 Index :
 - [Motivations and Design Decisions ](#motivation)
 - [Setup](#motivation)
- Setup
-Dependencies
+- [Dependencies](#depend)
+ - [ANATOMY Of Page](#anatomy) 
  ANATOMY of the page 
  Features 
  Commands
@@ -37,9 +37,9 @@ i just googled  my way to some how a fully functional page (read some commit mes
 despite of all this it works and is easily modifiable and extensible to fit your specific needs or you can add your own links anywhere  see [[Make it your own ]] section for more information 
 
 
-## Setup
+## Setup And Installation 
 
-## Dependencies 
+## Dependencies <a name = "depend"></a>
 -  `Custom New Tab Url` extension 
 
 ### Install Extension : 
