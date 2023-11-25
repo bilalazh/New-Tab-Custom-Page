@@ -97,7 +97,7 @@ How to take screenshot on mac
 press ``Enter `` and this query will be performed with  google search engines
 
 
-### Alterantive Search Engines Search
+### Alterantive Search Engines 
 
 You can search`` metaphor.systems`` from ``Search bar`` by just adding ``>meta`` to your query in ``search bar``
 
@@ -117,7 +117,26 @@ and it will show you these [results](https://metaphor.systems/search?q=latest+ai
 | Google search  | `google is default - no command is needed for google search`  |
 |Metaphor.systems  | `>meta` |
 
-- image
+
+
+
+## image
+
+Images are loaded from images folder
+
+Default image is AI generated and it matched the theme better so i decided to use it 
+
+**To upload your own image** 
+- put your image in the images folder located  in the same directory as the ``index.html`` file 
+- add the path to iamge like this 
+
+```
+<img src="H:\pics\ai generated images\Your image.jpg" alt="Image " width="300px" height="300px">
+```
+
+
+
+
 - command bar 
 - theme change 
 
