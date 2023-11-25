@@ -1,7 +1,8 @@
 # Chrome New Redirect  Page 
 
 Index :
-[Motivations and Design Decisions ](#motivation)
+- [Motivations and Design Decisions ](#motivation)
+- [Setup](#motivation)
  Setup
 Dependencies
  ANATOMY of the page 
@@ -69,7 +70,6 @@ In my case the path was like this
 file:///D:\tab-local\index.html
 ```
 
- use the alternative for better results 
 
 - add the other extension here as well and if people want to use here as well
 
@@ -77,11 +77,22 @@ file:///D:\tab-local\index.html
 ## ANATOMY of the page 
 
 ## Features 
+- search 
+- meta search 
+- command bar 
+- theme change 
 
 
 ## Commands
 
+
+
 ## Themes
+- [Gruvbox](https://github.com/morhetz/gruvbox) and [Everforest](https://github.com/sainnhe/everforest) inspired theme , That uses colors from gruvbx but over all gives everforest kind of green vibe
+
+### Dark Mode : 
+
+
 
 ## Make It Your Own : 
 
