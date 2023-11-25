@@ -97,7 +97,7 @@ How to take screenshot on mac
 press ``Enter `` and this query will be performed with  google search engines
 
 
-#### Alterantive Search Engines Search
+### Alterantive Search Engines Search
 
 You can search`` metaphor.systems`` from ``Search bar`` by just adding ``>meta`` to your query in ``search bar``
 
