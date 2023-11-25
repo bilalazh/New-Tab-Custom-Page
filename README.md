@@ -110,6 +110,13 @@ and it will show you these [results](https://metaphor.systems/search?q=latest+ai
 
 *More alternative search engines can be added in future as well*
 
+### Search engines you can use right now with commands
+
+| Search engine  | Commands to add  before query |
+| -------- | -------- |
+| Google search  | `google is default - no command is needed for google search`  |
+|Metaphor.systems  | `>meta` |
+
 - image
 - command bar 
 - theme change 
