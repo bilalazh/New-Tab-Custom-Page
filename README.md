@@ -131,9 +131,10 @@ Default image is AI generated and it matched the theme better so i decided to us
 - add the path to iamge like this 
 
 ```
-<img src="H:\pics\ai generated images\Your image.jpg" alt="Image " width="300px" height="300px">
+<img src="{{DRIVE LETTER}}:\{{PATH TO FOLDER}}\images\Your image.jpg" alt="Image " width="300px" height="300px">
 ```
 
+Press ``Ctrl +R `` to reload the theme and you should see your image loaded 
 
 
 
