@@ -82,10 +82,6 @@ Here is the complete anatomy of page along with their features
  ##### Search 
 Main search bar in the middle of screen is the main search area , it works just as a normal **Google Search** with additional super powers
 
-![image](https://github.com/bilalazh/New-Tab-Custom-Page/assets/139261053/dfbea0c4-c31a-4f1d-87fd-ad0fff66e6e7)
-
-
-
 
 #### How to use search : 
 
@@ -101,7 +97,17 @@ How to take screenshot on mac
 press ``Enter `` and this query will be performed with  google search engines
 
 
-- meta search 
+#### Meta Search 
+
+You can search`` metaphor.systems`` from ``Search bar`` by just adding ``>meta`` to your query in ``search bar``
+
+here is a sample query to show you how this works
+
+```
+>meta latest ai papers 
+```
+and it will show you these [results](https://metaphor.systems/search?q=latest+ai+papers)
+
 - image
 - command bar 
 - theme change 
