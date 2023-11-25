@@ -144,7 +144,12 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 
 ## Commands
 
-- Make  a table here
+
+| Commands   | ``Function``  |
+| -------- | -------- |
+| theme | `changes and set defaults theme`  |
+|Metaphor.systems  | `>meta` |
+
 
 -Type `theme` theme in command bar to change the theme 
 
