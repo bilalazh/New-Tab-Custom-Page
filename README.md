@@ -79,12 +79,16 @@ file:///D:\tab-local\index.html
 ## Features 
 - search 
 - meta search 
+- image
 - command bar 
 - theme change 
 
 
 ## Commands
 
+- Make  a tabla here
+
+-Type `theme` theme in command bar to change the theme 
 
 
 ## Themes
@@ -94,13 +98,22 @@ file:///D:\tab-local\index.html
 - Type ``theme`` in command bar your theme will be changed 
 - Press ``Ctrl + y `` to change the theme quickly using keyboard
 
+
+
+### Light Mode:
+
+
+
 ### Dark Mode : 
+
 
 
 
 ## Make It Your Own : 
 
-### Screenshots 
 
 
-### Browswers Tested 
+### Screenshots :
+
+
+### Browsers  Tested :
