@@ -420,15 +420,23 @@ img{
 /* Default Styles For Theme */
 /* hard coded light theme headings */
 h3{
-    color:#79740e;
+    color : #79740e;
 }
 /* hardcoded llink color for css */
 h4{
     color:#3c3836
 }
+/* Hover for the links */
+
+h4:hover{
+    color: #fb9919;
+}
+
 /* harccoded theme for comand bar  (main theme that shows up at reload ) */
 #commandBar         {
-    background-color: #292704;/*font color that shows inside the command bar */
+    background-color: #3a3806;/*font color that shows inside the command bar */
+  /* Actual color */
+    color:#f2e5bc; 
 }
 
 /* postiion for search bar  */
@@ -474,7 +482,6 @@ align-items: center;
 /* hover effects for the command bar  */
 #commandBar:hover{
     background-color: #282321;/*font color that shows inside the command bar */
-    color: #fabd2f;/* the color of the text that shows inside the command bar */
 }
 
 /* Search Bar Effects */
@@ -567,14 +574,20 @@ body.light-theme {
 body.light-theme h4 {
     color: #504954;
 }
+body.light-theme h4:hover {
+    color: #3a3806;
+}
+
 body.light-theme h3 {
     color: #79740e;
 }
-
+body.light-theme h3:hover {
+    color: #fb9919;
+}
 
 /* Dark theme */
 body.dark-theme h4 {
-    color: #79740e;
+    color: #98971a;
 }
 
 /* Dark theme links heading */
@@ -588,6 +601,17 @@ body.dark-theme {
     background-color: #1d2021;
     color: white;
 }
+
+/* Command bar color  in dark theme  */
+body.dark-theme #commandBar {
+    background-color: #3a3806;
+    color:#f2e5bc !important; 
+}
+
+body.dark-theme #commandBar:hover {
+    background-color: #1e1d03;
+}
+
 
 </style>
 
