@@ -38,7 +38,6 @@ despite of all this it works and is easily modifiable and extensible to fit your
 
 
 ## Setup And Installation 
-
 ## Dependencies <a name = "depend"></a>
 -  `Custom New Tab Url` extension 
 
@@ -148,7 +147,8 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 | Commands   | ``Function``  |
 | -------- | -------- |
 | theme | `changes and set defaults theme`  |
-|Metaphor.systems  | `>meta` |
+| ./news | `launches news websites` |
+| ./ai | `launches news websites` |
 
 
 -Type `theme` theme in command bar to change the theme 
