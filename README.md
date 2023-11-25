@@ -7,7 +7,6 @@ Index :
     - [Install Extension ](#ext)
     - [Configuring The Extension To Use Our Html Page](#ext)
  - [ANATOMY Of Page](#anatomy) 
- ANATOMY of the page 
  Features 
  Commands
  - [Themes](#theme)
