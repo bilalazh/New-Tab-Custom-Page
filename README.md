@@ -1,28 +1,21 @@
 # Chrome New Redirect  Page 
 
 Index :
-Motivations and Design Decisions : 
+[Motivations and Design Decisions ](#motivation)
  Setup
 Dependencies
-
-## ANATOMY of the page 
-
-## Features 
-## Commands
-
-## Themes
-
-
-## Make It Your Own : 
-
-### Screenshots 
-
-### Browswers Tested 
+ ANATOMY of the page 
+ Features 
+ Commands
+ Themes
+ Make It Your Own : 
+ Screenshots 
+ Browswers Tested 
 Alternatives  
 
 
 
-## Motivations and Design Decisions : 
+## Motivations and Design Decisions : <a name= "motivation"></a> 
 I always hated the page that appears when you press ```CTRL+T``` in chrome , and i used to change it  to blank page or some other extensions that change it entirely like [this](https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca)
 
 _i set few goals for the new tab page i wanted to design_
