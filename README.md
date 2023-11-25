@@ -9,7 +9,7 @@ Index :
  Features 
  Commands
  - [Themes](#theme)
-    - [Themes](#ct)
+    - [How to change the theme](#ct)
  Make It Your Own : 
  Screenshots 
  Browswers Tested 
