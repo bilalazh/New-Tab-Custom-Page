@@ -5,6 +5,7 @@ Index :
 - [Setup And Installation ](#set)
     - [Dependencies](#depend)
     - [Install Extension ](#ext)
+    - [Configuring The Extension To Use Our Html Page](#ext)
  - [ANATOMY Of Page](#anatomy) 
  ANATOMY of the page 
  Features 
@@ -54,7 +55,7 @@ here is the link of the extension i have been using for this project
 
 just click  on `add to chrome ` button to get the extension 
 
-#### Configuring The Extension To Use Our Html Page
+#### Configuring The Extension To Use Our Html Page <a name = "conf"></a>
 To configure the extesnsion to use the index.html page follow these steps 
 
 go to the options (As shown here ) 
