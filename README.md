@@ -15,7 +15,7 @@ Index :
     - [Dark](#Dark)
  Make It Your Own : 
  Screenshots 
- Browswers Tested 
+ - Tested 
 Alternatives  
 - [FAQs](#faq)
 
