@@ -17,6 +17,7 @@ Index :
  Screenshots 
  Browswers Tested 
 Alternatives  
+- [FAQs](#faq)
 
 
 
@@ -202,15 +203,15 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 
 ### Browsers  Tested :
 
-- chrome 
-- chromium 
-- thorium 
-- brave 
+- Chrome 
+- Chromium 
+- Thorium 
+- Brave 
 
 > Those are all the broswers i have installed 
 > the extension should work on any  chromium based broswer , and if you can install the extension that see _installation_ section for the rest of instructions 
 
-### FAQs:
+### FAQs: <a name="faq" ></a>
 
  **Are you going to keep developing this ?**
 - Yes , i plan to add more features and improve this over time , sicne when i made this i had no web dev experience ,  i might even do a clean better rewrite as well  
