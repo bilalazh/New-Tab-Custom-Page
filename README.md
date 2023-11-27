@@ -11,6 +11,8 @@ Index :
  Commands
  - [Themes](#theme)
     - [How to change the theme](#ct)
+    - [Light](#Light)
+    - [Dark](#Dark)
  Make It Your Own : 
  Screenshots 
  Browswers Tested 
@@ -166,11 +168,11 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 
 
 
-### Light Mode:
+### Light Mode:<a name = "Light"></a>
 
 [[Add screenshots here]]
 
-### Dark Mode : 
+### Dark Mode : <a name = "Dark"></a>
 
 
 [[Add screenshots here]]
