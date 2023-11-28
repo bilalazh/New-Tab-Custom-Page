@@ -11,8 +11,8 @@ Index :
  Commands
  - [Themes](#theme)
     - [How to change the theme](#ct)
-    - [Light](#Light)
-    - [Dark](#Dark)
+    - [Light theme screenshots](#Light)
+    - [Dark theme screenshots](#Dark)
  Make It Your Own : 
  Screenshots 
  - Tested 
