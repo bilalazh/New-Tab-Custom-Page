@@ -14,7 +14,7 @@ Index :
     - [Light theme screenshots](#Light)
     - [Dark theme screenshots](#Dark)
  Make It Your Own : 
- - Tested 
+- [Broswers Tested](#test)
 - [FAQs](#faq)
 
 
@@ -218,7 +218,7 @@ open `index .html` file with your favourite text editor
 
 
 
-### Browsers I  Tested This on  :
+### Browsers I  Tested This on  :<a name="test" ></a>
 
 - Chrome 
 - Chromium 
