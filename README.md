@@ -172,7 +172,9 @@ see `Commands` section below to see the list of commands you can enter
 
 - Type `theme` theme in command bar to change the theme 
 
+- Launcher commands 
 
+ #### how to launch multiple websites 
 
 ## Add more command here that are the websites you can open here 
 
@@ -181,6 +183,7 @@ see `Commands` section below to see the list of commands you can enter
 
 
 
+## Links 
 
 
 
