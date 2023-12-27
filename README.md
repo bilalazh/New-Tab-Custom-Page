@@ -185,8 +185,8 @@ see `Commands` section below to see the list of commands you can enter
 
 ## Links 
 
-
-
+Links are any websites you choose to display at the front page 
+you can chage these within `ìndex.html` file and reload the page  by pressing `Ctrl+R Key` to reload the page , links are distibuted into different categories to keep everything contexual and tidy 
 
 
 ## Themes <a name = "theme"></a>
