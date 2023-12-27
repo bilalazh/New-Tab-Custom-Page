@@ -170,7 +170,7 @@ see `Commands` section below to see the list of commands you can enter
 | >meta {{Search query}} | `Searches your query with metaphor.system search engine` |
 
 
--Type `theme` theme in command bar to change the theme 
+- Type `theme` theme in command bar to change the theme 
 
 
 ## Themes <a name = "theme"></a>
