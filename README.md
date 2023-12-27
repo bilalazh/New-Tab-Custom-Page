@@ -146,7 +146,8 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 
 ## command bar 
 
-Command Bar serves a central place to enter command Both setting related and launching `websites`or more then one websites as `commands` 
+Command Bar serves a central place to enter command Both setting related and launching `websites`or more then one websites as `commands`  
+see `Commands` section below to see the list of commands you can enter 
 
 - theme change 
 
