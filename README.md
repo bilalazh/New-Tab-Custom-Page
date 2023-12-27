@@ -190,7 +190,7 @@ see `Commands` section below to see the list of commands you can enter
 - [Gruvbox](https://github.com/morhetz/gruvbox) and [Everforest](https://github.com/sainnhe/everforest) inspired theme , That uses colors from gruvbx but over all gives everforest kind of green vibe
 
 
-### How to change the theme <a name = "ct"></a>
+#### How to change the theme <a name = "ct"></a>
 - Type ``theme`` in command bar your theme will be changed 
 - Press ``Ctrl + y `` to change the theme quickly using keyboard
 
