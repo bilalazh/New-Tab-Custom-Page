@@ -13,7 +13,6 @@ Index :
     - [How to change the theme](#ct)
     - [Light theme screenshots](#Light)
     - [Dark theme screenshots](#Dark)
- Make It Your Own : 
 - [Broswers Tested](#test)
 - [FAQs](#faq)
 
@@ -101,7 +100,7 @@ press ``Enter `` and this query will be performed with  google search engines
 
 
 ##### Image (In the Center)
- image is sourced from the same folder see image section to know more 
+ image is sourced from the same folder see [[Image]] section to know more 
 
 ### Alterantive Search Engines 
 
