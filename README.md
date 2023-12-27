@@ -197,6 +197,7 @@ you can chage these within `ìndex.html` file and reload the page  by pressing `
 - Type ``theme`` in command bar your theme will be changed 
 - Press ``Ctrl + y `` to change the theme quickly using keyboard
 
+> Once theme is changed it stays persistant untill you reset it to light or dark mode again this is not a bug  rather a feature
 
 
 
