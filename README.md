@@ -173,6 +173,19 @@ see `Commands` section below to see the list of commands you can enter
 - Type `theme` theme in command bar to change the theme 
 
 
+
+## Add more command here that are the websites you can open here 
+
+
+
+
+
+
+
+
+
+
+
 ## Themes <a name = "theme"></a>
 - [Gruvbox](https://github.com/morhetz/gruvbox) and [Everforest](https://github.com/sainnhe/everforest) inspired theme , That uses colors from gruvbx but over all gives everforest kind of green vibe
 
