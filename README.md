@@ -147,9 +147,14 @@ Press ``Ctrl +R `` to reload the theme and you should see your image loaded
 ## command bar 
 
 Command Bar serves a central place to enter command Both setting related and launching `websites`or more then one websites as `commands`  
+
+#### How to Focus Command Bar :
+
+You can nagivate to command bar from any input box just press colon ``:`` Key where ever you are on the page it will focus the `Command Bar`  and then you can enter commands into it 
+
+
 see `Commands` section below to see the list of commands you can enter 
 
-- theme change 
 
 
 ## Commands
