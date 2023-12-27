@@ -167,6 +167,7 @@ see `Commands` section below to see the list of commands you can enter
 | ./ai | `launches news websites` |
 | yt | `launches YouTube` |
 | ym | `launches YouTube Music` |
+| >meta {{Search query}} | `Searches your query with metaphor.system search engine` |
 
 
 -Type `theme` theme in command bar to change the theme 
