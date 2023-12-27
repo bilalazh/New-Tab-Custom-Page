@@ -165,6 +165,8 @@ see `Commands` section below to see the list of commands you can enter
 | theme | `changes and set defaults theme`  |
 | ./news | `launches news websites` |
 | ./ai | `launches news websites` |
+| yt | `launches YouTube` |
+| ym | `launches YouTube Music` |
 
 
 -Type `theme` theme in command bar to change the theme 
