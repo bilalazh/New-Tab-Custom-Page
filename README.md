@@ -206,10 +206,10 @@ if you want to make changes or add custom links here's how you can do that
 clone the project 
 
 ```
-git clone link here
+git clone https://github.com/bilalazh/New-Tab-Custom-Page.git
 ```
 
-open index .html file with your favourite text editor 
+open `index .html` file with your favourite text editor 
 
 
 
