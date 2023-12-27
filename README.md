@@ -81,7 +81,8 @@ file:///D:\tab-local\index.html
 Here is the complete anatomy of page along with their features
 
 
- ##### Search 
+##### Search 
+
 Main search bar in the middle of screen is the main search area , it works just as a normal **Google Search** with additional super powers
 
 
@@ -98,6 +99,9 @@ How to take screenshot on mac
 ```
 press ``Enter `` and this query will be performed with  google search engines
 
+
+##### Image (In the Center)
+ image is sourced from the same folder see image section to know more 
 
 ### Alterantive Search Engines 
 
